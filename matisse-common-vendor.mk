@@ -261,3 +261,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/matisse-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/matisse-common/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
+    vendor/samsung/matisse-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/matisse-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/matisse-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/matisse-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
