@@ -222,4 +222,4 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService
 
-$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8226/graphics/graphics-vendor.mk)
